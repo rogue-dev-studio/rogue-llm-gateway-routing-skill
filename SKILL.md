@@ -11,17 +11,17 @@ description: >-
 
 ## Procedure
 
-1. Catat provider yang diizinkan + budget.
-2. Satu gateway entrypoint per environment.
-3. Failover policy: primary -> secondary; jangan loop tak terbatas.
-4. Token/cost controls (`rtk` / wrapper) dengan logging tanpa PII.
-5. Jangan hardcode API keys; rotasi terdokumentasi.
+1. Record allowed providers + budget.
+2. One gateway entrypoint per environment.
+3. Failover policy: primary -> secondary; no infinite loops.
+4. Token/cost controls (`rtk` / wrapper) with logging without PII.
+5. Do not hardcode API keys; document rotation.
 
 ## DoD
 
-- [ ] Entry URL/env terdokumentasi
-- [ ] Failover diuji
-- [ ] Tidak ada key di git
+- [ ] Entry URL/env documented
+- [ ] Failover tested
+- [ ] No keys in git
 ## Attribution
 
 <!-- ATTRIBUTION: Rogue Development | https://github.com/rogue-dev-studio | DO-NOT-REMOVE -->
