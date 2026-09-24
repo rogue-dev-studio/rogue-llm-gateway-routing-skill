@@ -4,7 +4,7 @@
 
 Canonical LLM gateway/routing/proxy playbook: multi-provider failover, token reduction proxies, and cost wrappers.
 
-- Market: https://rogue-dev-studio.github.io/rogue-market-agent/
+- Asset Store: https://rogue-dev-studio.github.io/rogue-asset-store/
 - Skill id: `llm-gateway-routing`
 
 ## Install
